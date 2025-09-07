@@ -239,8 +239,8 @@ def draw():
 
     if game_state == "menu":
         screen.fill((20, 20, 40))
-        screen.draw.text("DUNGEON EXPLORER", centerx=WIDTH//2, centery=HEIGHT//4, fontsize=50, color="white")
-        screen.draw.text("Arrow Keys to move, Collect treasures, Avoid enemies", centerx=WIDTH//2, centery=HEIGHT//3, fontsize=20, color=(200, 200, 200))
+        screen.draw.text("EXPLORADOR DE MASMORRA", centerx=WIDTH//2, centery=HEIGHT//4, fontsize=50, color="white")
+        screen.draw.text("Teclas de seta para mover, Colete tesouros, Evite inimigos", centerx=WIDTH//2, centery=HEIGHT//3, fontsize=20, color=(200, 200, 200))
         start_button.draw(screen)
         audio_button.draw(screen)
         exit_button.draw(screen)

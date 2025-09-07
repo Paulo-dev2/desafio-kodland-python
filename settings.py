@@ -1,4 +1,4 @@
-TITLE = "Dungeon Explorer"
+TITLE = "Explorador de Masmorra"
 WIDTH = 800
 HEIGHT = 600
 GRID_SIZE = 32
